@@ -14,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.argusoft.who.igvisualization.helper.FileUploadHelper;
 import com.fasterxml.jackson.databind.JsonNode;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 
 @RestController
 public class FileController {
